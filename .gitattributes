@@ -1,0 +1,17 @@
+# 1. 默认所有文本文件提交时转为 LF，检出时根据系统决定
+* text=auto
+
+# 2. 强行指定代码文件与配置文件在任何平台都必须统一使用 LF（Linux 规范）
+*.kt text eol=lf
+*.kts text eol=lf
+*.xml text eol=lf
+*.properties text eol=lf
+*.gradle text eol=lf
+*.md text eol=lf
+.gitignore text eol=lf
+
+# 3. 二进制文件（图片、jar、so等）不做任何文本换行处理
+*.png binary
+*.jpg binary
+*.so binary
+*.jar binary
