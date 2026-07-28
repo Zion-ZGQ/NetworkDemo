@@ -6,9 +6,15 @@
 *.kts text eol=lf
 *.xml text eol=lf
 *.properties text eol=lf
+*.toml text eol=lf
+*.keep text eol=lf
 *.gradle text eol=lf
 *.md text eol=lf
 .gitignore text eol=lf
+
+# 3. 🎯 核心防御：Shell 脚本与 gradlew 必须强行指定为 LF
+gradlew text eol=lf
+*.sh text eol=lf
 
 # 3. 二进制文件（图片、jar、so等）不做任何文本换行处理
 *.png binary
