@@ -1,0 +1,3 @@
+# 网络库消费者混淆规则
+-keep public class com.zion.** { public protected *; }
+-keepclassmembers class com.zion.** { public protected *; }

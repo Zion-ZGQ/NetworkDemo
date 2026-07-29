@@ -37,8 +37,12 @@ android {
 }
 
 dependencies {
-    // 🎯 核心武器 2：在依赖里亲手塞入官方的脱糖无敌补丁包！
+    // 核心武器 2：在依赖里亲手塞入官方的脱糖无敌补丁包！
     coreLibraryDesugaring("com.android.tools:desugar_jdk_libs:2.1.4")
+
+    // NetworkKit 模块
+    implementation(project(":network-core"))
+    implementation(project(":network-monitor"))
 
     implementation(platform(libs.androidx.compose.bom))
     implementation(libs.androidx.activity.compose)

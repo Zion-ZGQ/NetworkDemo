@@ -31,3 +31,7 @@ dependencyResolutionManagement {
 rootProject.name = "NetworkDemo"
 include(":app")
 include(":network-core")
+include(":network-http")
+include(":network-socket")
+include(":network-monitor")
+include(":network-download")
