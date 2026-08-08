@@ -43,9 +43,12 @@ dependencies {
     // NetworkKit 模块
     implementation(project(":network-core"))
     implementation(project(":network-monitor"))
+    implementation(project(":network-http"))
 
     implementation(platform(libs.androidx.compose.bom))
     implementation(libs.androidx.activity.compose)
+    implementation(libs.androidx.navigation.compose)
+    implementation(libs.androidx.material.icons.extended)
     implementation(libs.androidx.compose.material3)
     implementation(libs.androidx.compose.ui)
     implementation(libs.androidx.compose.ui.graphics)

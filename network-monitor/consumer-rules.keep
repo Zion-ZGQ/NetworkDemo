@@ -1,0 +1,3 @@
+# Monitor 模块消费者混淆规则
+-keep public class com.zion.network_monitor.** { public protected *; }
+-keepclassmembers class com.zion.network_monitor.** { public protected *; }
